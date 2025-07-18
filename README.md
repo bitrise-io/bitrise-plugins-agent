@@ -1,4 +1,4 @@
-# Bitrise AI Reviewer Plugin
+# Bitrise Agent
 
 A Bitrise CLI plugin for agentic workflows
 
