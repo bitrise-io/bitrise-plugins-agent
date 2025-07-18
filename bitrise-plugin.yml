@@ -2,6 +2,6 @@ name: agent
 description: |-
   Bitrise plugin for agentic workflows
 executable:
-  osx: https://github.com/bitrise-io/bitrise-plugins-agent/releases/download/0.0.1/bitrise-plugins-agent-darwin-x86_64
-  osx-arm64: https://github.com/bitrise-io/bitrise-plugins-agent/releases/download/0.0.1/bitrise-plugins-agent-darwin-arm64
-  linux: https://github.com/bitrise-io/bitrise-plugins-agent/releases/download/0.0.1/bitrise-plugins-agent-linux-x86_64
+  osx: https://github.com/bitrise-io/bitrise-plugins-agent/releases/download/0.0.1/bitrise-plugins-agent_darwin_amd64
+  osx-arm64: https://github.com/bitrise-io/bitrise-plugins-agent/releases/download/0.0.1/bitrise-plugins-agent_darwin_arm64
+  linux: https://github.com/bitrise-io/bitrise-plugins-agent/releases/download/0.0.1/bitrise-plugins-agent_linux_amd64
