@@ -50,10 +50,11 @@ You should always run it on the VM that you would like to analyze. This way we c
 
 You should set the following environments:
 - LLM_API_KEY
-- GITHUB_TOKEN
 
 ```bash
-$ bitrise :agent ci-summary -p openai -m gpt-4.1
+$ bitrise :agent ci-summary \
+  -p openai \
+  -m gpt-4.1
 ```
 
 <details>
@@ -98,7 +99,13 @@ You should set the following environments:
 - GITHUB_TOKEN
 
 ```bash
-$ bitrise :agent pr-summary -p openai -m gpt-4.1 -b master -r github --repo bitrise-io/bitrise-plugins-agent --pr 36
+$ bitrise :agent pr-summary \
+  -p openai \
+  -m gpt-4.1 \
+  -b master \
+  -r github \
+  --repo bitrise-io/bitrise-plugins-agent \
+  --pr 36
 ```
 
 <details>
